@@ -3,7 +3,7 @@ from torchvision import models
 
 class ChestXRayModel(nn.Module):
     """
-    A DenseNet-161-based CNN for chest X-ray classification.
+    A DenseNet-121-based CNN for chest X-ray classification.
     
     - Accepts grayscale (1-channel) input of size 224x224.
     - No pretrained weights (trained from scratch).
@@ -15,13 +15,13 @@ class ChestXRayModel(nn.Module):
     def __init__(self, num_classes=4):
         super(ChestXRayModel, self).__init__()
 
-        # Load DenseNet-161 without pretrained weights
-        self.base_model = models.densenet161(pretrained=False)
+        # Load DenseNet-121 without pretrained weights
+        self.base_model = models.densenet121(pretrained=False)
 
         # Modify the first convolution layer to accept grayscale input
         self.base_model.features.conv0 = nn.Conv2d(
             in_channels=1,
-            out_channels=96,
+            out_channels=64,
             kernel_size=7,
             stride=2,
             padding=3,

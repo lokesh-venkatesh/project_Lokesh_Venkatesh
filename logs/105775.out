@@ -1,0 +1,141 @@
+🆕 No pre-trained weights found, starting from scratch.
+✅ Using device: cpu
+
+🚀 Epoch 1/40
+Epoch 1: Loss = 0.4860, Accuracy = 0.8281
+Validation Loss: 0.2557, Accuracy: 0.8221, Precision: 0.7610, Recall: 0.8763, F1 Score: 0.8146
+💾 Saved new best model!
+
+🚀 Epoch 2/40
+Epoch 2: Loss = 0.2417, Accuracy = 0.9166
+Validation Loss: 0.1379, Accuracy: 0.9073, Precision: 0.8957, Recall: 0.8968, F1 Score: 0.8963
+💾 Saved new best model!
+
+🚀 Epoch 3/40
+Epoch 3: Loss = 0.1832, Accuracy = 0.9385
+Validation Loss: 0.2120, Accuracy: 0.8801, Precision: 0.8741, Recall: 0.9231, F1 Score: 0.8979
+⏸️ Early stopping counter: 1/8
+
+🚀 Epoch 4/40
+Epoch 4: Loss = 0.1577, Accuracy = 0.9489
+Validation Loss: 0.1334, Accuracy: 0.9157, Precision: 0.8908, Recall: 0.9252, F1 Score: 0.9077
+💾 Saved new best model!
+
+🚀 Epoch 5/40
+Epoch 5: Loss = 0.1235, Accuracy = 0.9575
+Validation Loss: 0.1407, Accuracy: 0.9401, Precision: 0.9264, Recall: 0.9530, F1 Score: 0.9395
+⏸️ Early stopping counter: 1/8
+
+🚀 Epoch 6/40
+Epoch 6: Loss = 0.1282, Accuracy = 0.9545
+Validation Loss: 0.1058, Accuracy: 0.9466, Precision: 0.9347, Recall: 0.9551, F1 Score: 0.9448
+💾 Saved new best model!
+
+🚀 Epoch 7/40
+Epoch 7: Loss = 0.1020, Accuracy = 0.9665
+Validation Loss: 0.1520, Accuracy: 0.9457, Precision: 0.9259, Recall: 0.9429, F1 Score: 0.9343
+⏸️ Early stopping counter: 1/8
+
+🚀 Epoch 8/40
+Epoch 8: Loss = 0.0785, Accuracy = 0.9748
+Validation Loss: 0.1291, Accuracy: 0.9251, Precision: 0.9105, Recall: 0.9454, F1 Score: 0.9276
+⏸️ Early stopping counter: 2/8
+
+🚀 Epoch 9/40
+Epoch 9: Loss = 0.0891, Accuracy = 0.9669
+Validation Loss: 0.2097, Accuracy: 0.9195, Precision: 0.9065, Recall: 0.9403, F1 Score: 0.9231
+⏸️ Early stopping counter: 3/8
+
+🚀 Epoch 10/40
+Epoch 10: Loss = 0.0701, Accuracy = 0.9762
+Validation Loss: 0.1139, Accuracy: 0.9401, Precision: 0.9236, Recall: 0.9517, F1 Score: 0.9374
+⏸️ Early stopping counter: 4/8
+
+🚀 Epoch 11/40
+Epoch 11: Loss = 0.0555, Accuracy = 0.9806
+Validation Loss: 0.1100, Accuracy: 0.9457, Precision: 0.9398, Recall: 0.9515, F1 Score: 0.9456
+⏸️ Early stopping counter: 5/8
+
+🚀 Epoch 12/40
+Epoch 12: Loss = 0.0518, Accuracy = 0.9822
+Validation Loss: 0.0925, Accuracy: 0.9419, Precision: 0.9329, Recall: 0.9472, F1 Score: 0.9400
+💾 Saved new best model!
+
+🚀 Epoch 13/40
+Epoch 13: Loss = 0.0443, Accuracy = 0.9876
+Validation Loss: 0.0806, Accuracy: 0.9551, Precision: 0.9442, Recall: 0.9612, F1 Score: 0.9526
+💾 Saved new best model!
+
+🚀 Epoch 14/40
+Epoch 14: Loss = 0.0486, Accuracy = 0.9836
+Validation Loss: 0.0618, Accuracy: 0.9625, Precision: 0.9523, Recall: 0.9560, F1 Score: 0.9541
+💾 Saved new best model!
+
+🚀 Epoch 15/40
+Epoch 15: Loss = 0.0500, Accuracy = 0.9850
+Validation Loss: 0.0735, Accuracy: 0.9560, Precision: 0.9436, Recall: 0.9590, F1 Score: 0.9512
+⏸️ Early stopping counter: 1/8
+
+🚀 Epoch 16/40
+Epoch 16: Loss = 0.0410, Accuracy = 0.9864
+Validation Loss: 0.0762, Accuracy: 0.9532, Precision: 0.9477, Recall: 0.9573, F1 Score: 0.9525
+⏸️ Early stopping counter: 2/8
+
+🚀 Epoch 17/40
+Epoch 17: Loss = 0.0342, Accuracy = 0.9886
+Validation Loss: 0.0692, Accuracy: 0.9569, Precision: 0.9415, Recall: 0.9647, F1 Score: 0.9529
+⏸️ Early stopping counter: 3/8
+
+🚀 Epoch 18/40
+Epoch 18: Loss = 0.0276, Accuracy = 0.9916
+Validation Loss: 0.0665, Accuracy: 0.9625, Precision: 0.9529, Recall: 0.9645, F1 Score: 0.9587
+⏸️ Early stopping counter: 4/8
+
+🚀 Epoch 19/40
+Epoch 19: Loss = 0.0258, Accuracy = 0.9916
+Validation Loss: 0.0578, Accuracy: 0.9691, Precision: 0.9613, Recall: 0.9711, F1 Score: 0.9662
+💾 Saved new best model!
+
+🚀 Epoch 20/40
+Epoch 20: Loss = 0.0242, Accuracy = 0.9938
+Validation Loss: 0.0730, Accuracy: 0.9616, Precision: 0.9531, Recall: 0.9626, F1 Score: 0.9578
+⏸️ Early stopping counter: 1/8
+
+🚀 Epoch 21/40
+Epoch 21: Loss = 0.0254, Accuracy = 0.9914
+Validation Loss: 0.0650, Accuracy: 0.9663, Precision: 0.9585, Recall: 0.9652, F1 Score: 0.9619
+⏸️ Early stopping counter: 2/8
+
+🚀 Epoch 22/40
+Epoch 22: Loss = 0.0227, Accuracy = 0.9936
+Validation Loss: 0.0886, Accuracy: 0.9616, Precision: 0.9497, Recall: 0.9645, F1 Score: 0.9570
+⏸️ Early stopping counter: 3/8
+
+🚀 Epoch 23/40
+Epoch 23: Loss = 0.0149, Accuracy = 0.9964
+Validation Loss: 0.0721, Accuracy: 0.9635, Precision: 0.9517, Recall: 0.9654, F1 Score: 0.9585
+⏸️ Early stopping counter: 4/8
+
+🚀 Epoch 24/40
+Epoch 24: Loss = 0.0155, Accuracy = 0.9960
+Validation Loss: 0.0633, Accuracy: 0.9663, Precision: 0.9571, Recall: 0.9672, F1 Score: 0.9621
+⏸️ Early stopping counter: 5/8
+
+🚀 Epoch 25/40
+Epoch 25: Loss = 0.0187, Accuracy = 0.9946
+Validation Loss: 0.0760, Accuracy: 0.9597, Precision: 0.9473, Recall: 0.9600, F1 Score: 0.9536
+⏸️ Early stopping counter: 6/8
+
+🚀 Epoch 26/40
+Epoch 26: Loss = 0.0154, Accuracy = 0.9960
+Validation Loss: 0.0656, Accuracy: 0.9644, Precision: 0.9519, Recall: 0.9620, F1 Score: 0.9569
+⏸️ Early stopping counter: 7/8
+
+🚀 Epoch 27/40
+Epoch 27: Loss = 0.0158, Accuracy = 0.9960
+Validation Loss: 0.0638, Accuracy: 0.9663, Precision: 0.9537, Recall: 0.9627, F1 Score: 0.9582
+⏸️ Early stopping counter: 8/8
+🛑 Early stopping triggered!
+27 [(1, 0.4859634194618616, 0.8280905630134242), (2, 0.24172543175518513, 0.9166499699459026), (3, 0.18320554743210474, 0.9384892807052695), (4, 0.15766713812421912, 0.9489080344620316), (5, 0.12347854282229374, 0.9575235423762773), (6, 0.1282250539650424, 0.9545181326387497), (7, 0.10203899413299485, 0.96653977158886), (8, 0.07847933616274251, 0.9747545582047685), (9, 0.0890816541818472, 0.966940492887197), (10, 0.07011394233753283, 0.9761570827489481), (11, 0.05547868287286315, 0.9805650170306551), (12, 0.05179749730711755, 0.9821679022240032), (13, 0.04429006457287006, 0.9875776397515528), (14, 0.04860568405964818, 0.9835704267681827), (15, 0.04997078050823452, 0.9849729513123623), (16, 0.041008080705069005, 0.9863754758565417), (17, 0.03421722586230876, 0.9885794429973953), (18, 0.027580210638310138, 0.9915848527349228), (19, 0.02584281399956522, 0.9915848527349228), (20, 0.024208028252290275, 0.9937888198757764), (21, 0.025388160585395943, 0.9913844920857544), (22, 0.02269329686084977, 0.9935884592266079), (23, 0.014896126837881569, 0.996393508314967), (24, 0.01546286916709505, 0.99599278701663), (25, 0.018744562069724243, 0.9945902624724504), (26, 0.015383210960023392, 0.99599278701663), (27, 0.015776924556494355, 0.99599278701663)]
+26 [0.2556630074977875, 0.13793589500710368, 0.21200855821371078, 0.1333595560863614, 0.14073681831359863, 0.10576258227229118, 0.1519831418991089, 0.12905309163033962, 0.20974276587367058, 0.1139257401227951, 0.11000112444162369, 0.09253353253006935, 0.08055086433887482, 0.061779796378687024, 0.07345149153843522, 0.0762301825452596, 0.06921964779030532, 0.0665280930697918, 0.05781946866773069, 0.07299007009714842, 0.06502784509211779, 0.08859347365796566, 0.0720822555013001, 0.0633146355394274, 0.07596585899591446, 0.06563965952955186]
+26 [0.8220973782771536, 0.9073033707865169, 0.8801498127340824, 0.9157303370786517, 0.9400749063670412, 0.9466292134831461, 0.9456928838951311, 0.9250936329588015, 0.9194756554307116, 0.9400749063670412, 0.9456928838951311, 0.9419475655430711, 0.9550561797752809, 0.9625468164794008, 0.9559925093632958, 0.9531835205992509, 0.9569288389513109, 0.9625468164794008, 0.9691011235955056, 0.9616104868913857, 0.9662921348314607, 0.9616104868913857, 0.9634831460674157, 0.9662921348314607, 0.9597378277153558, 0.9644194756554307]
