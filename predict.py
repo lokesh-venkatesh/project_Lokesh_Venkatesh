@@ -12,7 +12,7 @@ DEVICE = set_available_device()
 set_seed()
 os.makedirs(logs_dir, exist_ok=True)
 
-# ---------- Averaging Model Weights ----------
+# Averaging Model Weights
 def return_model_weights():
     model = ChestXRayModel(num_classes=len(class_names)).to(DEVICE)
     model.load_state_dict(torch.load(weights_filepath, map_location=DEVICE))
@@ -22,7 +22,7 @@ def return_model_weights():
 # Load final averaged model
 model = return_model_weights()
 
-# -------- Batch Prediction --------
+# Batch Prediction
 def batch_predict_images(image_paths=pred_images):
     from torchvision import transforms
     from torch.utils.data import DataLoader, Dataset
@@ -64,7 +64,7 @@ def batch_predict_images(image_paths=pred_images):
 
     return predictions
 
-# -------- Evaluation Functions --------
+# Evaluation Functions
 def organise_preds_into_outputs_and_labels(image_files_directory_list=pred_images):
     predictions = batch_predict_images(image_files_directory_list)
     predicted_labels = [class_names.index(predictions[path]) for path in image_files_directory_list]
@@ -78,13 +78,10 @@ def return_preds_but_only_as_labelslist(image_files_directory=pred_images):
     predicted_labels = [predictions[path] for path in image_files_directory]
     return predicted_labels
 
-# -------- Script Entry --------
+# Script Entry
 if __name__ == "__main__":
     pred_images = [os.path.join("data", filename) for filename in os.listdir("data") if filename.lower().endswith((".png", ".jpg", ".jpeg"))]
     predicted_labels, true_labels = organise_preds_into_outputs_and_labels(pred_images)
-
-    #print("🔍 Predicted Labels:", [class_names[i] for i in predicted_labels.tolist()])
-    #print("🔍 True Labels:", [class_names[i] for i in true_labels.tolist()])
 
     output_csv = f"{logs_dir}/predictions_and_labels.csv"
     with open(output_csv, mode="w", newline="") as file:

@@ -20,7 +20,7 @@ n_input_channels = 1
 preds_transform = transforms.Compose([transforms.Resize((image_resize_x, image_resize_y)), transforms.ToTensor(), transforms.Normalize([image_normalise], [image_normalise])])
 
 # training hyperparams
-number_of_epochs = 40
+number_of_epochs = 3
 training_batch_size = 32
 prediction_batch_size = 1024
 learning_rate = 1e-4
@@ -30,7 +30,7 @@ SEED = 42
 
 # directories and filepaths
 raw_dataset_dir = "Chest_X_Ray_Dataset"
-data_split_dir = "data_split"
+data_split_dir = "split"
 model_params_dir = "checkpoints"
 predict_data_dir = "data"
 weights_filepath = f"{model_params_dir}/final_weights.pth"
