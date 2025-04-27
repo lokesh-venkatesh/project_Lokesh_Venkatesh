@@ -1,7 +1,7 @@
 # Machine Learning Pipeline to classify Images of Chest X-Ray Scans into categories based on the underlying medical condition
 
 ### About:
-This repository was created as part of the final project for the "Image and Video Processing using Deep Learning" course offered by Dr. Chaitanya Guttikar in the Jan, 2025 semester at IISER Pune, by Lokesh Venkatesh (20221150) from the 3rd year batch of BS-MS Undergraduates. 
+This repository was created as part of the final project for the **"Image and Video Processing using Deep Learning"** course offered by *Dr. Chaitanya Guttikar* in the *Jan, 2025* semester at IISER Pune, by **Lokesh Venkatesh** (20221150) from the 3rd year batch of BS-MS undergraduate students. 
 
 ---
 
