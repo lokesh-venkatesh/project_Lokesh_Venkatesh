@@ -36,4 +36,4 @@ predict_data_dir = "data"
 weights_filepath = f"{model_params_dir}/final_weights.pth"
 logs_dir = "logs"
 pred_images = [os.path.join(predict_data_dir, filename) for filename in os.listdir(predict_data_dir)]
-class_names = ['Covid19', 'Pneumonia', 'Normal', 'Tuberculosis']
+class_names = ['Covid19', 'Normal', 'Pneumonia', 'Tuberculosis']
